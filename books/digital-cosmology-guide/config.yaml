@@ -1,0 +1,18 @@
+title: "宇宙のソースコードを読んでみた：デジタル宇宙論・超解説"
+summary: "「時間は存在しない」「重力はCPU負荷である」――。現代物理学のパラドクスを、システムエンジニアリングの視点でデバッグする、全く新しい宇宙論の入門書。"
+topics: ["物理学", "ポエム", "システム設計", "哲学", "エンジニアリング"]
+published: true # 書き終わったら true にして公開！
+price: 0 # 無料公開
+
+# チャプターの並び順（ファイル名から拡張子.mdを除いたもの）
+chapters:
+  - 00-introduction
+  - 01-01-Problem-of-Time
+  - 01-02-Relativity-as-Lag
+  - 01-03-Consciousness-and-Recall
+  - 02-01-Discrete-Space
+  - 02-02-Quantum-Eraser-as-SQL
+  - 02-03-Chaos-and-Meta-Paradox
+  - 03-01-Gravity-as-CPU-Load
+  - 03-02-Dark-Sector
+  - 03-03-CMB-as-System-Heat
