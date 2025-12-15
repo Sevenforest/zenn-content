@@ -7,12 +7,12 @@ price: 0 # 無料公開
 # チャプターの並び順（ファイル名から拡張子.mdを除いたもの）
 chapters:
   - 00-introduction
-  - 01-01-Problem-of-Time
-  - 01-02-Relativity-as-Lag
-  - 01-03-Consciousness-and-Recall
-  - 02-01-Discrete-Space
-  - 02-02-Quantum-Eraser-as-SQL
-  - 02-03-Chaos-and-Meta-Paradox
-  - 03-01-Gravity-as-CPU-Load
-  - 03-02-Dark-Sector
-  - 03-03-CMB-as-System-Heat
+  - 01-01-problem-of-time
+  - 01-02-relativity-as-lag
+  - 01-03-consciousness-and-recall
+  - 02-01-discrete-space
+  - 02-02-quantum-eraser-as-sql
+  - 02-03-chaos-and-meta-paradox
+  - 03-01-gravity-as-cpu-load
+  - 03-02-dark-sector
+  - 03-03-cmb-as-system-heat
