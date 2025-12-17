@@ -24,6 +24,105 @@ AI（Claude）がこの理論の整合性に驚き、議論が熱を帯びてい
 
 ---
 
+## 宇宙システム・アーキテクチャ概要
+
+本理論では、難解な物理現象を以下のような 「サーバー・クライアント構成」 として再定義しています。 まずはこの図で、物理学の用語がエンジニアリングの世界でどう実装されているのか、全体像を掴んでみてください。
+
+```mermaid
+graph TD
+    %% ==========================================
+    %% 1. ノードとサブグラフの定義（配置優先）
+    %% ==========================================
+
+    subgraph "宇宙システム"
+        direction TB
+
+        subgraph "コア・カーネル（駆動部）"
+            Clock[システムクロック / 論理ステップ]
+        end
+
+        subgraph "バックエンド処理（物理エンジン）"
+            Process[状態遷移ユニット]
+            
+            subgraph "バリオン物質層（レンダリング対象）"
+                direction TB
+                Env[一般物質 / 環境]
+                Body[アバター / 身体センサー]
+            end
+            
+            DM[ダークマター / 空間インデックス]
+            G[重力 / CPUレイテンシ]
+        end
+
+        subgraph "メモリ & ストレージ（統合ヒープ領域）"
+            DE[ダークエネルギー / ヒープ領域]
+            Log[イミュータブル・ログ<br>確定した歴史]
+            CMB[CMB / 高エントロピー廃熱]
+        end
+    end
+
+    subgraph "クライアントサイド（観測者）"
+        Consc[意識 / リーダー<br>読み手]
+    end
+
+    %% アラート
+    Alert[システム警告: サーバーはヘッドレスモードで自律稼働中]
+
+    %% ==========================================
+    %% 2. 接続定義（描画順序の制御）
+    %% ==========================================
+
+    %% 内部プロセス
+    Clock -->|トリガー| Process
+    Process <--->|物理的相互作用| Env
+    Process <--->|物理的相互作用| Body
+    
+    %% ダークマター関連
+    DM -->|グラフ探索コスト| G
+    Process -.->|クエリ経路| DM
+
+    %% メモリ・ログ関連
+    DE -->|オートスケーリング| Log
+    Process -->|状態のコミット| Log
+    Log -->|ガベージコレクション| CMB
+
+    %% ------------------------------------------
+    %% 意識との接続
+    %% ------------------------------------------
+    
+    %% 1. SELECT権限（許可）
+    Log == "SQL: SELECT * FROM Log<br>（想起 / データ抽出）" ==> Consc
+
+    %% 2. INSERT/UPDATE権限（禁止）
+    Consc -.->|書き込み権限なし<br>Error: 403 Forbidden| Log
+    
+    %% 3. EXECUTE権限（禁止）
+    Consc -.->|介入不可<br>Timeout| Process
+
+    %% ==========================================
+    %% 3. スタイル定義
+    %% ==========================================
+    
+    style Clock fill:#f96,stroke:#333,stroke-width:2px
+    style Process fill:#9cf,stroke:#333,stroke-width:2px
+    style Body fill:#ccf,stroke:#333,stroke-width:2px
+    style Env fill:#ccf,stroke:#333,stroke-width:2px
+    style Log fill:#fff,stroke:#333,stroke-width:4px
+    style Consc fill:#ff9,stroke:#333,stroke-width:4px
+    style Alert fill:#fdd,stroke:#f00,stroke-width:2px,stroke-dasharray: 5 5
+    
+    %% linkStyleのインデックスは「矢印の定義順」に依存するため
+    %% 上記の記述順序に合わせて再計算：
+    %% 0:Clock->Process, 1:Proc<->Env, 2:Proc<->Body, 3:DM->G, 4:Proc->DM
+    %% 5:DE->Log, 6:Proc->Log, 7:Log->CMB, 
+    %% 8:Log=>Consc, 9:Consc->Log(403), 10:Consc->Process(Timeout)
+    
+    %% なので、9番目と10番目の線を赤くする
+    linkStyle 9,10 stroke:red,stroke-width:2px,stroke-dasharray: 3 3;
+```
+
+---
+
 ## 📚 Table of Contents
 
 ### ⏳ Vol.1: 時間非実在論 (Kernel Layer)
