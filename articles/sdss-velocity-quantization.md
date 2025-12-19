@@ -81,9 +81,9 @@ $$
 
 [**GitHub: Sevenforest/Digital-Cosmology**](https://github.com/Sevenforest/Digital-Cosmology)
 
-## 最後に
+~~## 最後に~~
 
-この発見は、W.G. ティフトが最初から正しかったことを示唆しています。
-我々はこのリポジトリを、彼の先駆的な精神に捧げます。
+~~この発見は、W.G. ティフトが最初から正しかったことを示唆しています。~~
+~~我々はこのリポジトリを、彼の先駆的な精神に捧げます。~~
 
-*(Dedication: This discovery implies that W.G. Tifft was right all along. We dedicate this repository to his pioneering spirit.)*
+~~*(Dedication: This discovery implies that W.G. Tifft was right all along. We dedicate this repository to his pioneering spirit.)*~~
