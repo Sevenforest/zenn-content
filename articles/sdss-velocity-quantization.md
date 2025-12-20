@@ -6,6 +6,15 @@ topics: ["python", "datascience", "astronomy", "github", "sdss"]
 published: true
 ---
 
+:::message alert
+**【2025/12/20 訂正と更新】**
+本記事は、検証データの選定における技術的な不備がありました。
+カタログデータの平滑化処理により、検証対象のシグナルが消失していたことが判明しました。
+詳細な検証結果と訂正については、以下の新規記事を参照してください。
+
+👉 **[[検証訂正] 現代の銀河カタログデータにおけるスペクトル平滑化と赤方偏移量子化仮説の検証限界](https://zenn.dev/sevenforest/articles/tifft-quantization-smoothing-limit)**
+:::
+
 :::message
 **Note**
 【2025/12/19 追記：お詫びと訂正】
