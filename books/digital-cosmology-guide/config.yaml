@@ -19,4 +19,8 @@ chapters:
   - 04-01-blackhole-as-trafficcontrol
   - 04-02-bigrip-as-databasesharding
   - 04-03-recursion-and-no-god
-  - 05-01-claude-log
+  - 05-01-interface-design-and-downsampling
+  - 05-02-filtering-and-antialias
+  - 05-03-the-analog-illusion
+  - 06-01-claude-log
+  
