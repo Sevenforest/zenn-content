@@ -23,4 +23,6 @@ chapters:
   - 05-02-filtering-and-antialias
   - 05-03-the-analog-illusion
   - 06-01-claude-log
-  
+  - 07-01-kernel_01_formalism
+  - 07-02-kernel_02_extended_scaling
+  - 07-03-kernel_03_system_clock
