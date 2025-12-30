@@ -24,6 +24,7 @@ chapters:
   - 05-03-the-analog-illusion
   - 06-01-claude-log
   - 07-01-kernel_01_formalism
-  - 07-02-kernel_02_extended_scaling
-  - 07-03-kernel_03_system_clock
+  - 07-02-kernel_02_discrete_gravity
+  - 07-03-kernel_03_extended_scaling
+  - 07-04-kernel_04_system_clock
   - 08-afterword
