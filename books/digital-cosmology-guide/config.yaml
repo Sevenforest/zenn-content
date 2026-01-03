@@ -27,4 +27,5 @@ chapters:
   - 07-02-kernel_02_discrete_gravity
   - 07-03-kernel_03_extended_scaling
   - 07-04-kernel_04_system_clock
+  - 07-05-kernel-05-exception-handling
   - 08-afterword
