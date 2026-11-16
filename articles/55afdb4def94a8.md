@@ -44,7 +44,7 @@ published: true
 
 > "At first sight, this result appears to trivialize quantum gravity. If the physical Hilbert space has dimension one, how can the theory describe a rich semiclassical world with nontrivial measurements, decoherence, and probabilistic outcomes?"
 
-「一見すると量子重力を矮小化してしまう」——著者自身がそう認めている結果だ。
+「一見すると量子重力を自明化してしまう」——著者自身がそう認めている結果だ。
 
 論文が提示する「解決策」は、この1次元の物理的空間を捨て、**制約を満たさない拡大空間 $\mathcal{H}_0$** の中で計算を行い、そこから物理的予測を取り出すというものだ。
 
